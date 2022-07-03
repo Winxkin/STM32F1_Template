@@ -29,6 +29,7 @@
 ".\objects\seg.o"
 ".\objects\dht.o"
 ".\objects\lcd.o"
+".\objects\spi.o"
 ".\objects\main.o"
 ".\objects\stm32f10x_it.o"
 ".\objects\system_stm32f10x.o"
