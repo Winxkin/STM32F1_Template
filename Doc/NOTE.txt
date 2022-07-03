@@ -1,0 +1,10 @@
+-STM32F1C8
+define STM32F10X_MD, USE_STDPERIPH_DRIVER
+-STM32F1C6
+define STM32F10X_LD, USE_STDPERIPH_DRIVER
+
+
+Note: 
+> _LD : low pin 
+> _MD : Medium pin
+> _HD : high pin
