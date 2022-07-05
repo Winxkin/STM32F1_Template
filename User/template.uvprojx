@@ -338,7 +338,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F10X_LD, USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\Libraries\STM32F10x_StdPeriph_Driver\inc;..\User;..\Libraries\CMSIS\CM3\CoreSupport;..\MyLibraries;..\sysdelay</IncludePath>
+              <IncludePath>..\Libraries\STM32F10x_StdPeriph_Driver\inc;..\User;..\Libraries\CMSIS\CM3\CoreSupport;..\MyLibraries;..\sys</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -515,12 +515,12 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>sysdelay</GroupName>
+          <GroupName>sys</GroupName>
           <Files>
             <File>
               <FileName>delay.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\sysdelay\delay.c</FilePath>
+              <FilePath>..\sys\delay.c</FilePath>
             </File>
           </Files>
         </Group>

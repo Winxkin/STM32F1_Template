@@ -1,6 +1,6 @@
 .\objects\dht.o: ..\MyLibraries\dht.c
 .\objects\dht.o: ..\MyLibraries\dht.h
-.\objects\dht.o: ..\sysdelay\delay.h
+.\objects\dht.o: ..\sys\delay.h
 .\objects\dht.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h
 .\objects\dht.o: C:\Users\Duy Huan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h
 .\objects\dht.o: ..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h

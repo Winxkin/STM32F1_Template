@@ -882,7 +882,7 @@ Image Symbol Table
     ..\MyLibraries\seg.c                     0x00000000   Number         0  seg.o ABSOLUTE
     ..\MyLibraries\spi.c                     0x00000000   Number         0  spi.o ABSOLUTE
     ..\\Libraries\\CMSIS\\CM3\\CoreSupport\\core_cm3.c 0x00000000   Number         0  core_cm3.o ABSOLUTE
-    ..\sysdelay\delay.c                      0x00000000   Number         0  delay.o ABSOLUTE
+    ..\sys\delay.c                           0x00000000   Number         0  delay.o ABSOLUTE
     dc.s                                     0x00000000   Number         0  dc.o ABSOLUTE
     main.c                                   0x00000000   Number         0  main.o ABSOLUTE
     stm32f10x_it.c                           0x00000000   Number         0  stm32f10x_it.o ABSOLUTE

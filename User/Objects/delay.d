@@ -1,5 +1,5 @@
-.\objects\delay.o: ..\sysdelay\delay.c
-.\objects\delay.o: ..\sysdelay\delay.h
+.\objects\delay.o: ..\sys\delay.c
+.\objects\delay.o: ..\sys\delay.h
 .\objects\delay.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h
 .\objects\delay.o: C:\Users\Duy Huan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h
 .\objects\delay.o: ..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h

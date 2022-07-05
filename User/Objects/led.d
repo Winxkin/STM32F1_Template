@@ -1,6 +1,6 @@
 .\objects\led.o: ..\MyLibraries\LED.c
 .\objects\led.o: ..\MyLibraries\LED.h
-.\objects\led.o: ..\sysdelay\delay.h
+.\objects\led.o: ..\sys\delay.h
 .\objects\led.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h
 .\objects\led.o: C:\Users\Duy Huan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h
 .\objects\led.o: ..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h
