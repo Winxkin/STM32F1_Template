@@ -3,7 +3,8 @@
 
 void SPI2_init (uint16_t BaudRatePrescaler,uint16_t CPHA,uint16_t CPOL,uint16_t DataSize,
 								uint16_t Direction,uint16_t FirstBit,uint16_t Mode,uint16_t NSS)
-{
+{   
+	  
  		GPIO_InitTypeDef  GPIO_InitStructure;
 		RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB, ENABLE);
 	  

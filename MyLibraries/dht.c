@@ -4,7 +4,7 @@ void DHT_init (GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin_x)
 	
 	GPIO_InitTypeDef  GPIO_InitStructure;
       
-	
+	Timer_init ();
 	if (GPIOx == GPIOA) {
 		// Enable clock for GPIOA
 		RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE);

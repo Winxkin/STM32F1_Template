@@ -7,7 +7,7 @@ void IIC_init (GPIO_TypeDef* GPIOx)
 {
  GPIO_InitTypeDef  GPIO_InitStructure;
       
-	
+	Timer_init ();
 	if (GPIOx == GPIOA) {
 		// Enable clock for GPIOA
 		RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE);

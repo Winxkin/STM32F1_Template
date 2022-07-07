@@ -20,7 +20,7 @@ void Timer_init (void)
 
 void delay_1us (void)
 {
-	Timer_init ();
+	
 	TIM_Cmd (TIM2,ENABLE);
 	TIM_SetCounter(TIM2, 0);
 	/* 1us = 4 period Prescaler clock */
@@ -40,7 +40,7 @@ void delay_us (uint32_t us)
 
 void delay_1ms(void)
 {
-	Timer_init ();
+	
 	TIM_Cmd (TIM2,ENABLE);
 	TIM_SetCounter(TIM2, 0);
 	/* 1ms = 4000 period Prescaler clock */
