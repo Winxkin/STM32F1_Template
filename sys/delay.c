@@ -9,10 +9,10 @@ void Timer_init (void)
 	Timer_init.TIM_CounterMode = TIM_CounterMode_Up;
 	Timer_init.TIM_Period = 65535;
 	
-	/* system clock = 8Mhz -> prescaler -> Timer clock = 4Mhz 
+	/* system clock = 72Mhz -> prescaler -> Timer clock = 36Mhz 
 	 Note: Prescaler set prarm = 1 that mean div pararm = 1 + 1 */   
 	
-	Timer_init.TIM_Prescaler = 1;  //Timer clock = system clock / (1 + 1)
+	Timer_init.TIM_Prescaler = Prescaler;  //Timer clock = system clock / (1 + 1)
 	TIM_TimeBaseInit (TIM2, &Timer_init);
 	
 
